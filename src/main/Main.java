@@ -17,7 +17,7 @@ public class Main {
 		do {
 			printMenu();
 			System.out.println("Nhập lựa chọn:");
-			chon = esc.nextInt();
+			chon = Integer.parseInt(sc.nextLine());
 			switch(chon) {
 			case 1:
 				printListBook(listBook);
@@ -47,7 +47,7 @@ public class Main {
 	
 	
 	private static Scanner sc = new Scanner(System.in);
-	private static Scanner esc = new Scanner(System.in);
+//	private static Scanner esc = new Scanner(System.in);
 
 	private static void searchByTitle(ArrayList<Book> listBook) {
 		System.out.println("Nhập tựa sách muốn tìm: ");
