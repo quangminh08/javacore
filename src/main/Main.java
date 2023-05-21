@@ -13,41 +13,42 @@ public class Main {
 		String dataRoot = sc.nextLine();		
 		ArrayList<Book> listBook = DataIO.loadData(dataRoot);
 
-		int chon;
+		String chon;
 		do {
 			printMenu();
 			System.out.println("Nhập lựa chọn:");
-			chon = Integer.parseInt(sc.nextLine());
+			chon = sc.nextLine();
 			switch(chon) {
-			case 1:
+			case "1":
 				printListBook(listBook);
 				break;
-			case 2:
+			case "2":
 				addBook(listBook);
 				break;
-			case 3:
+			case "3":
 				delBook(listBook);
 				break;
-			case 4:
+			case "4":
 				searchByID(listBook);
 				break;
-			case 5:
+			case "5":
 				searchByAuthor(listBook);
 				break;
-			case 6:
+			case "6":
 				searchByTitle(listBook);
 				break;
-			case 0:
+			case "0":
 				DataIO.saveData(listBook, dataRoot);
 				System.out.println("< Đã Thoát >");
 				break;
+			default:
+				System.out.println("Vui lòng nhập số từ 0 đến 6.");
 			}
-		}while(chon != 0);		
+		}while(!chon.equals("0"));		
 	}
 	
 	
 	private static Scanner sc = new Scanner(System.in);
-//	private static Scanner esc = new Scanner(System.in);
 
 	private static void searchByTitle(ArrayList<Book> listBook) {
 		System.out.println("Nhập tựa sách muốn tìm: ");
