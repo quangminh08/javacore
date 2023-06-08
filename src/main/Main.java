@@ -37,6 +37,9 @@ public class Main {
 			case "6":
 				searchByTitle(listBook);
 				break;
+			case "7":
+				Update.update(listBook);
+				break;
 			case "0":
 				DataIO.saveData(listBook, dataRoot);
 				System.out.println("< Đã Thoát >");
@@ -111,7 +114,6 @@ public class Main {
 		if (count == 0) {
 			System.out.println("<<< Không có cuốn sách này >>>");
 		}
-		
 	}
 
 	private static void addBook(ArrayList<Book> listBook) {
@@ -171,6 +173,7 @@ public class Main {
 		System.out.println("4. Tìm kiếm sách theo mã.");
 		System.out.println("5. Tìm kiếm sách theo tên tác giả.");
 		System.out.println("6. Tìm kiếm sách theo tựa sách.");
+		System.out.println("7. Sửa thông tin sách.");
 		System.out.println("0. Thoát.\n");
 	}
 }

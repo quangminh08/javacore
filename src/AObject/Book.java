@@ -112,7 +112,7 @@ public class Book {
 	}
 	
 	// cover for showInfo()
-	private static String getByIndex(String[] data, int i) {
+	private String getByIndex(String[] data, int i) {
 		if(i<data.length) {
 			return data[i];
 		}

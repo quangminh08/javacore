@@ -90,6 +90,7 @@
 67;Phát Minh Cuối Cùng;James Barrat;Lịch sử - Khoa học xã hội;2012
 68;Margaret Thatcher - Hồi Ký Bà Đầm Thép;Margaret Thatcher;Lịch sử - Khoa học xã hội;2019
 11;Tiếng Anh giao tiếp 1;Nhiều tác giả ;Sách tham khảo;2016
+130;Mỗi ngày tôi chọn một niềm vui;Nguyễn Quang Minh;Test;2023
 20;Tuổi trẻ đáng giá bao nhiêu;Rosie Nguyễn;Tản văn;2016
 21;Dám hạnh phúc;Kishimi Ichiro , Koga Fumitake;Tản văn;2019
 28;Giá ở đâu đó có người đợi tôi ;Anna Gavalda;Tản văn;2016
@@ -124,4 +125,4 @@
 41;Mười Ba Lý Do;Jay Asher;Văn học - truyện ngắn;2010
 22;Bước chậm lại giữa thế gian vội vã;Hae Min;Văn học - tản văn;2016
 23;Yêu những điều không hoàn hảo;Hae Min;Văn học - tản văn;2017
-127;Bệnh ngũ quan;Bs.Hoàng Văn Bình;Y học cổ truyền;2019
+129;Bệnh ngũ quan;Bs.Hoàng Văn Bình;Y học cổ truyền;2019
